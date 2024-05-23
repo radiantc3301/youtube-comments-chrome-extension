@@ -1,0 +1,10 @@
+.comment-list {
+    padding: 10px;
+  }
+  
+  .comment {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
