@@ -1,15 +1,17 @@
 {
     "manifest_version": 3,
     "name": "YouTube Comment Customizer",
-    "version": "1.0",
+    "version": "0.1.0",
+    "description": "Give the youtube comments some new features for getting the best out of the comment section!",
     "permissions": ["activeTab", "storage"],
+    "hosst_permissions": ["https://*.youtube.com/*"],
     "background": {
-      "service_worker": "src/background.js"
+      "service_worker": "background.js"
     },
     "content_scripts": [
       {
         "matches": ["*://www.youtube.com/*"],
-        "js": ["src/content.js"]
+        "js": ["contentScript.js"]
       }
     ],
     "action": {
@@ -25,5 +27,5 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     }
-  }
+}
   

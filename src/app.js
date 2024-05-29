@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import CommentList from './src/components/commentList/commentList';
-import SearchBar from './src/components/searchBar/searchBar';
-import TranslationButton from './components/TranslationButton/TranslationButton';
+import CommentList from './components/commentList/commentList';
+import SearchBar from './components/searchBar/searchBar';
+import TranslationButton from './components/translate/translate';
 import './App.css';
 
 const App = () => {

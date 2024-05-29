@@ -1,5 +1,5 @@
 import React from 'react';
-import './TranslationButton.css';
+import './translate.css';
 
 const TranslationButton = ({ onTranslate }) => {
   return (
